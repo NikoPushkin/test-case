@@ -13,3 +13,9 @@ withdraws money from user account.</h4>
 
 <h4>There is a createPayment function in services, which accepts profile id and sum of replenishement
 and lets to create new payment and replenish user-balance.</h4>
+
+<ul><h3>Modules required:</h3>
+<li>requests</li>
+<li>phonenumber_field</li>
+</ul>
+

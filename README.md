@@ -9,6 +9,7 @@
 </ul>
 
 <h4>True payout-status changing leds to creation of confirmation-date, prohibits further modification of the payment-object and
-withdraws money from user account.
-There is a createPayment function in services, which accepts profile id and sum of replenishement
+withdraws money from user account.</h4>
+
+<h4>There is a createPayment function in services, which accepts profile id and sum of replenishement
 and lets to create new payment and replenish user-balance.</h4>

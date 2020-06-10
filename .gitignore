@@ -1,4 +1,4 @@
 __init__.py
 __pycache__
 templates/userpayment/register.html
-static/userpayment/admin
+static/userpayment/admin/

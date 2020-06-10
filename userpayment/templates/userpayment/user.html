@@ -1,0 +1,42 @@
+{% extends 'userpayment/app_base.html' %}
+
+{% block title %}
+    {{ userinfo.username }}
+{% endblock %}
+
+
+{% block content %}
+  <div class="main-container">
+    <div class="user-info">
+      <div class="">
+        Username: {{ user.lastname }} {{ user.firstname }}
+      </div>
+      <div class="">
+        Commission: {{ user.commission }}
+      </div>
+    </div>
+
+    <div class="form-container">
+
+      <form action="{% url 'userPageUrl' %}" method="POST">
+        {% csrf_token %}
+
+          <div class="sum-field">
+            {{ form.sum }}
+            Payout sum
+          </div>
+          <div class="acc-field">
+            {{ form.account_number }}
+            Account number
+          </div>
+
+
+          <div class="create-btn">
+            <input type="submit" value="Create">
+          </div>
+
+      </form>
+
+    </div>
+  </div>
+{% endblock %}

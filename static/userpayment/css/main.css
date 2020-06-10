@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 200px;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 100px;
+  justify-content: center;
+}
+
+.sum-form {
+  margin-buttom: 10px;
+  border-color: red;
+  height: 30px;
+}
+
+.account-form {
+  border-color: red;
+  height: 30px;
+
+}
+
+.create-btn {
+  display: grid;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.create-btn input[type=submit] {
+  border: none;
+  background-color: #4271FA;
+  color: white;
+  font-size: 17px;
+  font-weight: bolder;
+  width: 205px;
+  height: 30px;
+}
+
+.create-btn input[type=submit]:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}

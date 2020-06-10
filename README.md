@@ -1,7 +1,7 @@
 # test-case
 <h1>Django-application with extended user-model, payout and payment models and extended admin-inteface</h1>
 
-<ul>This application has a follow functionality:
+<ul><h3>This application has a follow functionality:</h3>
   <li>create extened user-profile</li>
   <li>commit payments and payouts, what influences on the user-balance</li>
   <li>custom-actions for working with payout-objects in admin panel
